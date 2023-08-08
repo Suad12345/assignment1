@@ -1,0 +1,38 @@
+body {
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
+    background-color: rgb(174, 207, 40);
+  }
+h1{
+   border: 1px solid black;
+   background-color: rgb(32, 136, 150);
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   color:#000000e4;
+   margin-top: screen;
+
+
+
+}
+
+h2{
+   border: 1px;
+   color: #f9f2f2e4;
+   background-color: rgb(32, 136, 150);
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+
+
+button {
+    background-color: #4086f1;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+    }

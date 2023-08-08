@@ -1,0 +1,32 @@
+<p>student works!</p>
+<router-outlet></router-outlet>
+<h1 style="text-align: center;">Students Marks</h1>
+<br>
+<table class="Center" style= "width:auto">
+  <thead>
+    <tr>
+      <th>NAME</th>
+      <th>EMAIL</th>
+      <th>MARKS (out of 100)</th>
+      <th>PASS/ FAIL</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let item of student">
+      <td>{{item.name}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.Mark}}</td>
+      <td>
+      <span *ngIf="(item.Mark>50)" class="primarybg" style="background-color: green; color: black">PASS</span>
+      <span *ngIf="!(item.Mark>50)" class="secondarybg" style="background-color: red; color:black">FAIL</span>
+      
+      </td>
+    </tr>
+  </tbody>
+</table><br>
+<button class="btn btn border-primary" routerLink="">click to back </button>
+
+
+
+
