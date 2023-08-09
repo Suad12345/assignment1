@@ -11,7 +11,7 @@ export class StudentComponent {
   student: any[] = [
     { name: 'Sara', email: 'sara@gmail.com', Mark: 55 },
     { name: 'Ahmed', email: 'ahmed@gmail.com', Mark: 30 },
-    { name: 'Name 2', email: 'Email2@gmail.com', Mark: 60 },
+    { name: 'Salma', email: 'salma@gmail.com', Mark: 60 },
     // Add more students if needed
   ];
 

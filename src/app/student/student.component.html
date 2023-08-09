@@ -16,7 +16,8 @@
     <tr *ngFor="let item of student">
       <td>{{item.name}}</td>
       <td>{{item.email}}</td>
-      <td>{{item.Mark}}</td>
+      <td [ngClass]="{'text-red': item.Mark <50, 'text-green': item.Mark>50}">{{item.Mark}}</td>
+      
       <td>
       <span *ngIf="(item.Mark>50)" class="primarybg" style="background-color: green; color: black">PASS</span>
       <span *ngIf="!(item.Mark>50)" class="secondarybg" style="background-color: red; color:black">FAIL</span>
